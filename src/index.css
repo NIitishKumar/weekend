@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jobLogo{
+  border-radius: 30px;
+}
+
+.cardHeader{
+  display: flex;
+}
+
+.companyInfo{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.job-span{
+  float: left;
+  display: block;
+}
+
+.jobCard{
+  padding: 20px 10px;
+}
+
+.css-pwngrv-MuiPaper-root-MuiCard-root{
+  border-radius: 20px !important;
+}
+
+.jobDetails{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.jobActions{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.actionBtn{
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.profileImg{
+  border-radius: 20px;
+  filter: blur(1px);
+}
+
+.viewMore{
+  align-items: end;
+  color: blue;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px 10px;
+  backdrop-filter: blur(1px);
+  position: absolute;
+  bottom: -25px;
+  background: rgb(111,111,111,0.2);
+  background: linear-gradient(to bottom, rgba(255,0,0,0),rgb(555,555,555,0.2));
+  z-index: 9;
+}
+
+.header{
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 10px 0px 10px;
+  font-weight: 700;
+}
+.headerItem{
+  cursor: pointer;
+}
+
+.headerItemActive{
+  background-color: #54efc2 !important;
+}
